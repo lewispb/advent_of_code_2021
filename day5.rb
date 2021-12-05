@@ -63,4 +63,5 @@ lines.each do |line|
 end
 
 count = matrix.sum { |row| row.count { |value| value > 1 } }
-puts "Answer: #{count}"
+
+puts "Part 1 answer: #{count}"
